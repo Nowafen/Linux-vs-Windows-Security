@@ -8,9 +8,7 @@
 ---
 
 ## 1. Open Source Nature of Linux
-
 #### Code Transparency and Community Contribution
-
 | Linux’s open-source foundation means its source code is accessible for auditing and modification, enabling broad participation in identifying and fixing vulnerabilities.  
 
 - **Transparency as a Security Asset**: Publicly available code encourages community-driven vulnerability detection. Although not always immediate, response times can be faster than in closed-source systems.  
@@ -26,7 +24,6 @@
 ### 2. User Permissions and Access Control
 
 #### Principle of Least Privilege
-
 | Linux enforces separation of roles by default, restricting administrative (root) access unless explicitly elevated.  
 
 - **File System Permissions**: Malware is generally confined to user space unless privileges are escalated. Windows historically relied heavily on default administrative rights, though UAC has improved this.  
@@ -38,7 +35,6 @@
 ### 3. Exposure to Malware
 
 #### Market Share and Attack Surface
-
 | Linux experiences fewer widespread malware incidents, partly due to its smaller desktop market share and minimalist server configurations.  
 
 - **Market Share Dynamics**: Windows’ ~75% desktop market share makes it a larger target for mass malware campaigns. Linux, more dominant on servers, tends to face targeted attacks instead.  
@@ -54,7 +50,6 @@
 ### 4. Vulnerability Management
 
 #### Reporting and Patching Cycles
-
 | Linux and Windows both report significant vulnerabilities, but their patching models differ.  
 
 - **CVE Statistics**: The total number of CVEs varies yearly. Sometimes Linux projects report more due to modularity, multiple distributions, and transparency of reporting. This should not be mistaken as an indicator of lower security — rather, it reflects the openness of the process. Windows may appear to have fewer CVEs due to centralized reporting and closed-source development, but this does not imply higher intrinsic security.  
@@ -66,7 +61,6 @@
 ### 5. Default Security Configurations
 
 #### Minimization of Attack Surface
-
 | Linux distributions often ship with hardened defaults, though this varies significantly.  
 
 - **Distro Variability**: Fedora ships with SELinux enforced, Alpine provides a minimal footprint, while Ubuntu Desktop prioritizes usability with more services enabled. Thus, Linux security depends not just on the kernel, but also on the distribution’s philosophy.  
@@ -80,7 +74,6 @@
 ### 6. Encryption and Privacy Features
 
 #### Built-in Security Tools
-
 | Linux integrates strong cryptographic and privacy mechanisms.  
 
 - **LUKS (Linux Unified Key Setup)**: Provides full-disk encryption with AES-256.  
@@ -96,7 +89,6 @@
 ### 7. Customization and Hardening Capabilities
 
 #### Tailored Security Configurations
-
 | Linux’s modularity allows administrators to adjust security at multiple layers.  
 
 - **Security Modules**: SELinux, AppArmor, and grsecurity provide policy-based restrictions.  
@@ -109,7 +101,6 @@
 ### 8. Windows Security Strengths
 
 #### Balancing the Perspective
-
 | While Linux has clear strengths, Windows includes modern enterprise security features:  
 
 - **Windows Defender ATP**: Advanced endpoint protection with behavior-based detection.  
@@ -121,7 +112,6 @@
 ---
 
 ### 9. Cloud, DevSecOps, and Supply Chain Security
-
 | Linux dominates cloud infrastructure, and its ecosystem includes specialized security tools.  
 
 - **eBPF and Seccomp**: Provide fine-grained sandboxing in containers.  
@@ -132,7 +122,6 @@
 ---
 
 ### 10. Advanced Kernel and Hardware Security
-
 | Linux security is reinforced by active kernel projects and hardware integration.  
 
 - **Kernel Self-Protection Project (KSPP)**: Enhances default hardening against exploitation.  
@@ -146,15 +135,18 @@ These demonstrate that Linux security is not only about transparency but also pr
 ### 11. Challenges in Windows Server Management
 | Windows administrators face distinct challenges compared to Linux:  
 
-- **Exploitability of Default Services**: RDP and SMB remain high-value attack targets.  
-- **Update Cycles**: Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
-- **Administrative Access**: Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
-- **Malware Prevalence**: Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
+- **Exploitability of Default Services**:
+RDP and SMB remain high-value attack targets.  
+- **Update Cycles**:
+Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
+- **Administrative Access**:
+Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
+- **Malware Prevalence**:
+Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
 
 ---
 
 ### Conclusion
 ###### Linux’s reputation for stronger security arises from its open-source nature, rapid patch cycles, modular design, and strong hardening features such as SELinux, KSPP, and container isolation. Its diversity of distributions allows tailored security postures, but also introduces variability that administrators must manage carefully. Windows, however, has also evolved significantly, introducing enterprise-grade capabilities like Defender ATP, Credential Guard, centralized logging, and deep integration with Active Directory.  
-
 | Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
 
