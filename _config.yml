@@ -3,3 +3,4 @@ description: Why Linux is Considered More Secure Than Windows?
 show_downloads: false
 author: MNM
 theme: jekyll-theme-hacker
+include: ["/_includes/head.html"]
