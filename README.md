@@ -1,10 +1,9 @@
-<div align="center"> 
-
-  ### Why Linux is Considered More Secure Than Windows? 
-  </div>
+<h3 align="center"
+  
+  ## Why Linux is Considered More Secure Than Windows? 
+  </h3>
+  
 <img width="1000" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
-
-
 
 ##### Linux is often regarded as more secure than Windows, largely due to differences in design philosophy, update models, and community oversight. This article explores the technical mechanisms and security considerations that distinguish Linux, while also acknowledging challenges, nuances, and modern security features in both ecosystems.  
 
@@ -139,13 +138,13 @@ These demonstrate that Linux security is not only about transparency but also pr
 | Windows administrators face distinct challenges compared to Linux:  
 
 - **Exploitability of Default Services**:
-RDP and SMB remain high-value attack targets.  
+###### RDP and SMB remain high-value attack targets.  
 - **Update Cycles**:
-Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
+###### Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
 - **Administrative Access**:
-Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
+###### Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
 - **Malware Prevalence**:
-Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
+###### Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
 
 ---
 
