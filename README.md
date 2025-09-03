@@ -1,9 +1,3 @@
-<div align="center">
-
-
-### Why Linux is Considered More Secure Than Windows
-
-</div>
 
 <img width="1000" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
 
@@ -17,8 +11,7 @@
 
 #### Code Transparency and Community Contribution
 
-> [!TIP]
-> Linux’s open-source foundation means its source code is accessible for auditing and modification, enabling broad participation in identifying and fixing vulnerabilities.  
+Linux’s open-source foundation means its source code is accessible for auditing and modification, enabling broad participation in identifying and fixing vulnerabilities.  
 
 - **Transparency as a Security Asset**: Publicly available code encourages community-driven vulnerability detection. Although not always immediate, response times can be faster than in closed-source systems.  
 - **Security Response Teams**: Distributions like Ubuntu, Fedora, and Debian maintain dedicated teams (e.g., Debian Security Team) to track CVEs and issue patches rapidly.  
@@ -34,8 +27,7 @@
 
 #### Principle of Least Privilege
 
-> [!TIP]
-> Linux enforces separation of roles by default, restricting administrative (root) access unless explicitly elevated.  
+Linux enforces separation of roles by default, restricting administrative (root) access unless explicitly elevated.  
 
 - **File System Permissions**: Malware is generally confined to user space unless privileges are escalated. Windows historically relied heavily on default administrative rights, though UAC has improved this.  
 - **sudo Command**: The `sudo` framework requires reauthentication for administrative tasks. However, in practice many desktop users configure `sudo` to grant nearly constant root access. Similarly, in server environments, poor policies can erode the least-privilege model.  
