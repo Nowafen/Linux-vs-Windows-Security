@@ -1,3 +1,4 @@
+
 <h3 align="center"
   
   ## Why Linux is Considered More Secure Than Windows? 
@@ -138,17 +139,17 @@ These demonstrate that Linux security is not only about transparency but also pr
 | Windows administrators face distinct challenges compared to Linux:  
 
 - **Exploitability of Default Services**:
-###### RDP and SMB remain high-value attack targets.  
+##### RDP and SMB remain high-value attack targets.  
 - **Update Cycles**:
-###### Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
+##### Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
 - **Administrative Access**:
-###### Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
+##### Default-enabled accounts increase risk. Linux defaults to disabling root SSH logins, though effectiveness depends on admin practices.  
 - **Malware Prevalence**:
-###### Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
+##### Windows remains the primary target for broad malware campaigns, while Linux is increasingly targeted by ransomware and botnets in server and cloud contexts.  
 
 ---
 
 ### Conclusion
 ###### Linux’s reputation for stronger security arises from its open-source nature, rapid patch cycles, modular design, and strong hardening features such as SELinux, KSPP, and container isolation. Its diversity of distributions allows tailored security postures, but also introduces variability that administrators must manage carefully. Windows, however, has also evolved significantly, introducing enterprise-grade capabilities like Defender ATP, Credential Guard, centralized logging, and deep integration with Active Directory.  
-| Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
+> Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
 
