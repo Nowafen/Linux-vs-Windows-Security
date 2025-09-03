@@ -7,11 +7,11 @@
 
 ---
 
-### 1. Open Source Nature of Linux
+## 1. Open Source Nature of Linux
 
 #### Code Transparency and Community Contribution
 
-Linux’s open-source foundation means its source code is accessible for auditing and modification, enabling broad participation in identifying and fixing vulnerabilities.  
+| Linux’s open-source foundation means its source code is accessible for auditing and modification, enabling broad participation in identifying and fixing vulnerabilities.  
 
 - **Transparency as a Security Asset**: Publicly available code encourages community-driven vulnerability detection. Although not always immediate, response times can be faster than in closed-source systems.  
 - **Security Response Teams**: Distributions like Ubuntu, Fedora, and Debian maintain dedicated teams (e.g., Debian Security Team) to track CVEs and issue patches rapidly.  
@@ -27,7 +27,7 @@ Linux’s open-source foundation means its source code is accessible for auditin
 
 #### Principle of Least Privilege
 
-Linux enforces separation of roles by default, restricting administrative (root) access unless explicitly elevated.  
+| Linux enforces separation of roles by default, restricting administrative (root) access unless explicitly elevated.  
 
 - **File System Permissions**: Malware is generally confined to user space unless privileges are escalated. Windows historically relied heavily on default administrative rights, though UAC has improved this.  
 - **sudo Command**: The `sudo` framework requires reauthentication for administrative tasks. However, in practice many desktop users configure `sudo` to grant nearly constant root access. Similarly, in server environments, poor policies can erode the least-privilege model.  
@@ -39,8 +39,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Market Share and Attack Surface
 
-> [!TIP]
-> Linux experiences fewer widespread malware incidents, partly due to its smaller desktop market share and minimalist server configurations.  
+| Linux experiences fewer widespread malware incidents, partly due to its smaller desktop market share and minimalist server configurations.  
 
 - **Market Share Dynamics**: Windows’ ~75% desktop market share makes it a larger target for mass malware campaigns. Linux, more dominant on servers, tends to face targeted attacks instead.  
 - **Minimal Installations**: Many Linux distributions install only essential services, reducing attack vectors. Windows systems often enable services like RDP and SMB by default.  
@@ -56,8 +55,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Reporting and Patching Cycles
 
-> [!TIP]
-> Linux and Windows both report significant vulnerabilities, but their patching models differ.  
+| Linux and Windows both report significant vulnerabilities, but their patching models differ.  
 
 - **CVE Statistics**: The total number of CVEs varies yearly. Sometimes Linux projects report more due to modularity, multiple distributions, and transparency of reporting. This should not be mistaken as an indicator of lower security — rather, it reflects the openness of the process. Windows may appear to have fewer CVEs due to centralized reporting and closed-source development, but this does not imply higher intrinsic security.  
 - **Centralized Updates**: Linux distributions provide system-wide updates via a single package manager, often daily. Windows relies on Patch Tuesday, but does issue out-of-band updates for critical threats.  
@@ -69,8 +67,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Minimization of Attack Surface
 
-> [!TIP]
-> Linux distributions often ship with hardened defaults, though this varies significantly.  
+| Linux distributions often ship with hardened defaults, though this varies significantly.  
 
 - **Distro Variability**: Fedora ships with SELinux enforced, Alpine provides a minimal footprint, while Ubuntu Desktop prioritizes usability with more services enabled. Thus, Linux security depends not just on the kernel, but also on the distribution’s philosophy.  
 - **Mandatory Access Control (MAC)**: SELinux and AppArmor enforce security policies beyond standard permissions.  
@@ -84,8 +81,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Built-in Security Tools
 
-> [!TIP]
-> Linux integrates strong cryptographic and privacy mechanisms.  
+| Linux integrates strong cryptographic and privacy mechanisms.  
 
 - **LUKS (Linux Unified Key Setup)**: Provides full-disk encryption with AES-256.  
 - **SSH**: Encrypted remote access is the default in Linux server management, compared to RDP in Windows.  
@@ -101,8 +97,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Tailored Security Configurations
 
-> [!TIP]
-> Linux’s modularity allows administrators to adjust security at multiple layers.  
+| Linux’s modularity allows administrators to adjust security at multiple layers.  
 
 - **Security Modules**: SELinux, AppArmor, and grsecurity provide policy-based restrictions.  
 - **Firewall Customization**: `iptables` and `nftables` support granular traffic control.  
@@ -115,8 +110,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 #### Balancing the Perspective
 
-> [!TIP]
-> While Linux has clear strengths, Windows includes modern enterprise security features:  
+| While Linux has clear strengths, Windows includes modern enterprise security features:  
 
 - **Windows Defender ATP**: Advanced endpoint protection with behavior-based detection.  
 - **Credential Guard & Device Guard**: Protect against credential theft.  
@@ -128,8 +122,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 ### 9. Cloud, DevSecOps, and Supply Chain Security
 
-> [!TIP]
-> Linux dominates cloud infrastructure, and its ecosystem includes specialized security tools.  
+| Linux dominates cloud infrastructure, and its ecosystem includes specialized security tools.  
 
 - **eBPF and Seccomp**: Provide fine-grained sandboxing in containers.  
 - **Bug Bounty Ecosystem**: Projects like Kernel.org, Google OSS-Fuzz, and HackerOne programs ensure rapid vulnerability discovery.  
@@ -140,8 +133,7 @@ Linux enforces separation of roles by default, restricting administrative (root)
 
 ### 10. Advanced Kernel and Hardware Security
 
-> [!TIP]
-> Linux security is reinforced by active kernel projects and hardware integration.  
+| Linux security is reinforced by active kernel projects and hardware integration.  
 
 - **Kernel Self-Protection Project (KSPP)**: Enhances default hardening against exploitation.  
 - **Integrity Measurement Architecture (IMA)**: Ensures runtime file and configuration integrity.  
@@ -152,9 +144,7 @@ These demonstrate that Linux security is not only about transparency but also pr
 ---
 
 ### 11. Challenges in Windows Server Management
-
-> [!TIP]
-> Windows administrators face distinct challenges compared to Linux:  
+| Windows administrators face distinct challenges compared to Linux:  
 
 - **Exploitability of Default Services**: RDP and SMB remain high-value attack targets.  
 - **Update Cycles**: Patch Tuesday can delay fixes, though critical patches are sometimes released out-of-band.  
@@ -166,6 +156,5 @@ These demonstrate that Linux security is not only about transparency but also pr
 ### Conclusion
 ###### Linux’s reputation for stronger security arises from its open-source nature, rapid patch cycles, modular design, and strong hardening features such as SELinux, KSPP, and container isolation. Its diversity of distributions allows tailored security postures, but also introduces variability that administrators must manage carefully. Windows, however, has also evolved significantly, introducing enterprise-grade capabilities like Defender ATP, Credential Guard, centralized logging, and deep integration with Active Directory.  
 
-> [!IMPORTANT]
-> Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
+| Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
 
