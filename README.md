@@ -1,10 +1,10 @@
 
-<h3 align="center"
+<div align="center">
   
-  ## Why Linux is Considered More Secure Than Windows? 
-  </h3>
+## Why Linux is Considered More Secure Than Windows? 
+</div>
   
-<img width="1000" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
+<img width="1100" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
 
 ##### Linux is often regarded as more secure than Windows, largely due to differences in design philosophy, update models, and community oversight. This article explores the technical mechanisms and security considerations that distinguish Linux, while also acknowledging challenges, nuances, and modern security features in both ecosystems.  
 
@@ -131,7 +131,7 @@
 - **Integrity Measurement Architecture (IMA)**: Ensures runtime file and configuration integrity.  
 - **Secure Boot**: Linux supports UEFI Secure Boot to verify kernel and bootloader integrity.  
 
-These demonstrate that Linux security is not only about transparency but also proactive architectural improvements.  
+>>> These demonstrate that Linux security is not only about transparency but also proactive architectural improvements.  
 
 ---
 
