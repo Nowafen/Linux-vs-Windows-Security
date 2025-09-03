@@ -1,7 +1,7 @@
 <div align="center">
 
 
-### Why Linux is Considered More Secure Than Windows?
+### Why Linux is Considered More Secure Than Windows
 
 </div>
 
