@@ -77,7 +77,8 @@
 
 #### Minimization of Attack Surface
 
-Linux distributions often ship with hardened defaults, though this varies significantly.  
+> [!TIP]
+> Linux distributions often ship with hardened defaults, though this varies significantly.  
 
 - **Distro Variability**: Fedora ships with SELinux enforced, Alpine provides a minimal footprint, while Ubuntu Desktop prioritizes usability with more services enabled. Thus, Linux security depends not just on the kernel, but also on the distribution’s philosophy.  
 - **Mandatory Access Control (MAC)**: SELinux and AppArmor enforce security policies beyond standard permissions.  
