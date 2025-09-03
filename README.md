@@ -174,4 +174,5 @@ These demonstrate that Linux security is not only about transparency but also pr
 ###### Linux’s reputation for stronger security arises from its open-source nature, rapid patch cycles, modular design, and strong hardening features such as SELinux, KSPP, and container isolation. Its diversity of distributions allows tailored security postures, but also introduces variability that administrators must manage carefully. Windows, however, has also evolved significantly, introducing enterprise-grade capabilities like Defender ATP, Credential Guard, centralized logging, and deep integration with Active Directory.  
 
 > [!IMPORTANT]
-> Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.  
+> Ultimately, security depends less on the operating system alone and more on **deployment practices, patch management discipline, and environment-specific hardening**. Both Linux and Windows can be secured effectively; but Linux’s transparency, flexibility, and cloud-first tooling give it an edge in environments demanding fine-grained control and rapid response.
+
