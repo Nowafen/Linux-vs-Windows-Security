@@ -1,4 +1,7 @@
+<div align="center"> 
 
+  ### Why Linux is Considered More Secure Than Windows? 
+  </div>
 <img width="1000" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
 
 
