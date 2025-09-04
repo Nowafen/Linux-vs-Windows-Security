@@ -1,6 +1,6 @@
 ## Why Linux is Considered More Secure Than Windows? 
- 
-<img width="1100" height="550" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/0bd46b79-ed56-4218-94a7-d4d05e569d0e" />
+<img width="1536" height="1024" alt="ChatGPT Image Sep 4, 2025, 01_08_20 AM" src="https://github.com/user-attachments/assets/5d237359-a1a4-43bd-b940-c4ca74707918" />
+
 
 ##### Linux is often regarded as more secure than Windows, largely due to differences in design philosophy, update models, and community oversight. This article explores the technical mechanisms and security considerations that distinguish Linux, while also acknowledging challenges, nuances, and modern security features in both ecosystems.  
 
